@@ -1,0 +1,40 @@
+::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgb(255, 255, 255);     
+  background:  #fdfdfde7;   
+}
+
+::-webkit-scrollbar-thumb {
+  background: #009cea;
+  border-radius:50px;
+}
+
+.modal .modal-dialog .modal-content .modal-header {
+  background-color: rgb(9, 107, 255);
+  color: whitesmoke;
+}
+
+.table thead tr th {
+  border-bottom: 3px double rgb(214, 212, 212);
+}
+
+.table thead {
+  height: 50px;
+  background-color: rgb(214, 212, 212);
+  color: whitesmoke;
+
+}
+
+.table-responsive .table {
+  border-color: rgb(214, 212, 212);
+}
+
+.table{
+  font-size: 11.5pt;
+}
+
+

@@ -1,0 +1,123 @@
+body {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header table tr td {
+	border: 0px solid black;
+}
+
+table thead tr th {
+	border: 1px solid black;
+	height: 40px;
+	font-size: 12pt;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+table tbody tr td {
+	border: 1px solid black;
+	height: 30px;
+	font-size: 12pt;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.header {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.header table tr td img {
+	width: 100px;
+	height: 100px;
+}
+
+.header table tr td p {
+	font-size: 14pt;
+	font-weight: bold;
+	line-height: 10px;
+
+}
+
+.header table tr td {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.line {
+	width: 100%;
+	border: double 2.5px black;
+}
+
+.title {
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.title p {
+	font-size: 12pt;
+	font-weight: bold;
+	line-height: 23px;
+}
+
+.keterangan {
+	width: 50%;
+	margin-right: auto;
+	/* margin-left: %; */
+}
+
+.keterangan table thead tr th {
+	font-size: 10pt;
+	text-align: left;
+	border: 0;
+}
+
+.keterangan table tbody tr td {
+	font-size: 10pt;
+	text-align: left;
+	border: 0;
+}
+
+.data thead tr th {
+	font-size: 10pt;
+	background-color: rgba(199, 199, 199, 0.658);
+}
+
+.data tbody tr td {
+	font-size: 10pt;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.sub-point table tr td{
+	font-size: 11pt;
+	font-weight: bold;
+	border: 0px;
+	padding: 0;
+}
+
+
+#pengesahan #ortu #penge_ortu tr td{
+	padding: 0px;
+	font-size: 11pt;
+	border: 0;
+}
+
+#pengesahan #guru_kelas #penge_guru_kelas tr td{
+	padding: 0px;
+	font-size: 11pt;
+	border: 0;
+}
+
+#pengesahan_kepsek #kepsek #penge_kepsek tr td{
+	padding: 0px;
+	font-size: 11pt;
+	border: 0;
+}
+
+#kop_profil table tr td{
+	border: 0;
+}

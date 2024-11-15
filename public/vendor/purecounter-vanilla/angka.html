@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+
+	<style type="text/css">
+		.counts {
+  padding: 70px 0 60px;
+}
+
+.counts .count-box {
+  padding: 30px 30px 25px 30px;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  background: #f1f6fe;
+}
+
+.counts .count-box i {
+  position: absolute;
+  top: -28px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 24px;
+  background: #106eea;
+  color: #fff;
+  width: 56px;
+  height: 56px;
+  line-height: 0;
+  border-radius: 50px;
+  border: 5px solid #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.counts .count-box span {
+  font-size: 36px;
+  display: block;
+  font-weight: 600;
+  color: #062b5b;
+}
+
+.counts .count-box p {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+	</style>
+	
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous"> 
+
+<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+
+
+<section id="counts" class="counts">
+  <div class="container" data-aos="fade-up">
+    <div class="row">
+
+      <div class="col-lg-4 col-md-6">
+        <div class="count-box">
+          <i class="bx bx-user"></i>
+          <span data-purecounter-start="0" data-purecounter-end="100" class="purecounter"></span>
+          <p>Counter 1</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 mt-5 mt-md-0">
+        <div class="count-box">
+          <i class="bx bxl-bitcoin"></i>
+          <span data-purecounter-start="0" data-purecounter-end="10036" class="purecounter"></span>
+          <p>Counter 2</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 mt-5 mt-lg-0">
+        <div class="count-box">
+          <i class="bx bx-server"></i>
+          <span data-purecounter-start="0" data-purecounter-end="1000" class="purecounter"></span>
+          <p>Counter 3</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
+<!-- End Counts Section -->
+
+<script type="text/javascript" src="purecounter_vanilla.js"></script>
+
+ <!-- <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script> -->
+
+</body>
+</html>
